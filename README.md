@@ -1,5 +1,5 @@
 # A Multilingual Benchmark for Probing Negation-Awareness <br/> with Minimal Pairs
-This repository contains our Multilingual Benchmark for Probing Negation-Awareness with Minimal Pairs, presented in our CoNLL 2021 paper. For more information, checkout the associated video presentation and poster.
+This repository contains the data for our Multilingual Benchmark for Probing Negation-Awareness with Minimal Pairs (CoNLL 2021). The idea of our work is to provide multilingual datasets that allow to investigate the extent to which pre-trained language models are aware of the semantics of negation markers. The datasets are manually derived from the multilingual XNLI datasets, and consist of minimal pairs of NLI examples that only differ in the presence/absence of a negation marker. For more information, checkout the associated video presentation and poster.
 
 
 The following files are provided:
