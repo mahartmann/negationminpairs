@@ -1,6 +1,7 @@
 This folder contains 6 datasets of minimal pairs:
 - 5 datasets with our minimal pairs created by removing negation markers from original XNLI examples in en,de,fr,bg,zh
-- 1 dataset of minimal pairs derived from data of Hossain et al. (2020) (https://github.com/mosharafhossain/negation-and-nli) based on inserting negation markers into original NLI examples
+- 1 dataset of minimal pairs derived from data of Hossain et al. (2020) (https://github.com/mosharafhossain/negation-and-nli) based on inserting 
+  negation markers into original NLI examples
 
 The format of each file is one .json dict per line representing an NLI example. 
 The example is either an original NLI example as present in the XNLI or MNLI datasets (*Orig*), or a modified version thereof (created by removing a negation cue) from either premise (*Mod1*) or hypothesis (*Mod2*). For the Hossain dataset, the modified versions are created by negation cue insertion instead of removal.
