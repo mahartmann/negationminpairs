@@ -1,4 +1,5 @@
-# A Multilingual Benchmark for Probing Negation-Awareness with Minimal Pairs
+# A Multilingual Benchmark for Probing Negation-Awareness\\
+# with Minimal Pairs
 This repository contains our Multilingual Benchmark for Probing Negation-Awareness with Minimal Pairs, presented in our CoNLL 2021 paper. For more information, checkout the associated video presentation and poster.
 
 
