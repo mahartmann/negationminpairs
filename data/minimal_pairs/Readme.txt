@@ -4,8 +4,9 @@ This folder contains 6 datasets of minimal pairs:
   negation markers into original NLI examples
 
 The format of each file is one .json dict per line representing an NLI example. 
-The example is either an original NLI example as present in the XNLI or MNLI datasets (*Orig*), or a modified version thereof (created by removing a negation cue)
-from either premise (*Mod1*) or hypothesis (*Mod2*). For the Hossain dataset, the modified versions are created by negation cue insertion instead of removal.
+The example is either an original NLI example as present in the XNLI or MNLI datasets (*Orig*), 
+or a modified version thereof (created by removing a negation cue) from either premise (*Mod1*) or hypothesis (*Mod2*). 
+For the Hossain dataset, the modified versions are created by negation cue insertion instead of removal.
 Each json dict contains the following information:
 
 - "pairID":    The original id of the NLI example plus an indicator if the example is original, derived by modifying the first sentence, or derived by modifying 
