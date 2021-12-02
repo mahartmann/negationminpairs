@@ -5,6 +5,11 @@ The repository contains the following data:
 - the [lists of negation cues](./data/negation_cues) used to select NLI examples for the minimal pairs
 - the [datasets of minimal pairs](./data/minimal_pairs) resulting from negation removal
 
+
+## Model Evaluation
+
+
+
 ## Citing and Contact 
 If you have questions or comments, please contact the corresponding author at `mrkhartmann4@gmail.com` (Mareike Hartmann).
 
