@@ -13,7 +13,7 @@ outdir=../results
 seed=1
 
 python ../code/training/predict_nli.py \
-       --test_data xnli_en.test.jsonl,hossain_minimal_pairs_All_mnli_en.test.jsonl,hossain_minimal_pairs_Orig_mnli_en.test.jsonl,hossain_minimal_pairs_Mod_mnli_en.test.jsonl,xnli_en.neg.test.jsonl,xnli_en.pos.test.jsonl \
+       --test_data xnli_en.test.jsonl,hossain_minimal_pairs_All_mnli_en.test.jsonl \
        --data_path ../data/minimal_pairs/eval_splits \
        --model_name ${model_name} \
        --model_dir ${model_dir} \

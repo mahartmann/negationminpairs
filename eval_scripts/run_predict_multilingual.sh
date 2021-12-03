@@ -13,8 +13,9 @@ seed=1
 
 outdir=results
 
+# --test_data takes a list of files containing test data
 python ../code/training/predict_nli.py \
-       --test_data minimal_pairs_All_xnli_${lang}.test.jsonl,minimal_pairs_Orig_xnli_${lang}.test.jsonl,minimal_pairs_Mod_xnli_${lang}.test.jsonl,xnli_${lang}.neg.test.jsonl,xnli_${lang}.pos.test.jsonl \
+       --test_data minimal_pairs_All_xnli_${lang}.test.jsonl,xnli_${lang}.test.jsonl \
        --data_path ../data/minimal_pairs/eval_splits \
        --model_name ${model_name} \
        --model_dir ${model_dir} \
