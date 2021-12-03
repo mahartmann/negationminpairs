@@ -20,7 +20,6 @@ We suggest to evaluate negation awareness on minimal pairs by comparing the frac
 5. Compute difference in performance on `orig` and `orig AND modified` examples using `./eval_scripts/compute_performance_loss.py`. By uncommenting the last two lines in the script, you can generate the barplots shown in Figure 4 in the paper.
 
 
-
 ## Citing and Contact 
 If you have questions or comments, please contact the corresponding author at `mrkhartmann4@gmail.com` (Mareike Hartmann).
 
