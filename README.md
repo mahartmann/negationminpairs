@@ -8,7 +8,7 @@ The repository contains the following data:
 
 ## Model Evaluation
 We suggest to evaluate negation awareness on minimal pairs by comparing the fraction of correct predictions on the original NLI example (correct prediction for first element of the minimal pair) with the fraction of correct predictions on the original NLI example AND the corresponding modified NLI example (correct predictions for both elements of the minimal pair). To replicate the results in our paper:
-1. Install require packages. 
+1. Install required packages. 
    - pytorch
    - transformers
    - scikit-learn
