@@ -7,6 +7,10 @@ The repository contains the following data:
 
 
 ## Model Evaluation
+We suggest to evaluate negation awareness on minimal pairs by comparing the fraction of correct predictions on the original NLI example (correct prediction for first element of the minimal pair) with the fraction of correct predictions on the original NLI example AND the corresponding modified NLI example (correct predictions for both elements of the minimal pair). To replicate the results in our paper:
+1. Download BERT model fine-tuned on MNLI data from [here](https://drive.google.com/file/d/1iY7Es6jxjnWGn5ntGXxrZ7U2Nrq3lUa0/view?usp=sharing). Put it in the `./trained_models` folder and unzip the file. 
+2. Get predictions for minimal pairs by running `./eval_scripts/run_predict_multilingual.sh`, which calls the python code for model evaluation in `code/training/predict_nli.py`. The predictions are written to the `./results` folder.
+3. Compute difference in performance on `orig` and `orig AND modified` examples using './eval_scripts/compute_performance_loss.py'. By uncommenting the last two lines in the script, you can generate the barplots shown in Figure 4 in the paper.
 
 
 
